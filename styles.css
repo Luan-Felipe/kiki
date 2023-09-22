@@ -115,3 +115,92 @@ body {
     background-color: #fff;
     border-radius: 60%;
 }
+
+.nariz-gato {
+    position: absolute;
+    top: 108px;
+    left: 85px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: rotate(180deg);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid salmon;
+}
+
+.boca-gato div {
+    width: 30px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 190%/190px 150px  0 0;
+    border-color: black transparent transparent transparent;
+}
+
+.boca-gato > .linha-esquerda {
+    position: absolute;
+    top: 88px;
+    left: 74px;
+    transform: rotate(170deg);
+}
+
+.boca-gato > .linha-direita {
+    position: absolute;
+    top: 88px;
+    left: 91px;
+    transform: rotate(165deg);
+}
+
+.bigodes-esquerda div {
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+}
+
+.bigodes-direita div {
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+}
+
+.bigode-esquerda-cima {
+    position: absolute;
+    top: 120px;
+    left: 52px;
+    transform: rotate(10deg);
+}
+
+.bigode-esquerda-meio {
+    position: absolute;
+    top: 127px;
+    left: 52px;
+    transform: rotate(3deg);
+}
+
+.bigode-esquerda-baixo {
+    position: absolute;
+    top: 134px;
+    left: 52px;
+    transform: rotate(-3deg);
+}
+
+.bigode-direita-cima {
+    position: absolute;
+    top: 120px;
+    left: 109px;
+    transform: rotate(-10deg);
+}
+
+.bigode-direita-meio {
+    position: absolute;
+    top: 127px;
+    left: 109px;
+    transform: rotate(-3deg);
+}
+
+.bigode-direita-baixo {
+    position: absolute;
+    top: 134px;
+    left: 109px;
+    transform: rotate(3deg);
+}
